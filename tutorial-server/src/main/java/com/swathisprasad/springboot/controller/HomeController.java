@@ -17,7 +17,7 @@ public class HomeController {
 	
 	@GetMapping
 	public String home() {
-		return "/index.html";
+		return "/Example_sample/index.html";
 	}
 
 }
