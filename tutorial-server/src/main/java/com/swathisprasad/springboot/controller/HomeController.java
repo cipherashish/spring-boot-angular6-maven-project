@@ -12,12 +12,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
  *
  */
 @Controller
-@RequestMapping("/")
 public class HomeController {
 	
-	@GetMapping
+	@RequestMapping("/")
 	public String home() {
-		return "/Example_sample/index.html";
+		return "forward:/index.html";
 	}
 
 }
