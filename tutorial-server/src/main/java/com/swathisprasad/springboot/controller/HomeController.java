@@ -16,7 +16,7 @@ public class HomeController {
 	
 	@RequestMapping("/")
 	public String home() {
-		return "forward:/index.html";
+		return "forward:/Example_sample/tutorial-web/src/main/web/src/index.html";
 	}
 
 }
