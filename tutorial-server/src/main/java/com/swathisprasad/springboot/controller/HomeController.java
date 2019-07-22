@@ -17,7 +17,7 @@ public class HomeController {
 	
 	@GetMapping
 	public String home() {
-		return "forward:/Example_sample/index.html";
+		return "/index.html";
 	}
 
 }
